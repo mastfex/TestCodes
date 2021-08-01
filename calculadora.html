@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Document</title>
+</head>
+<body>
+    <h1 id="titulo"> JAVASCRIPT</h1>
+    <script src="calculadora.js"></script>
+    <h3 id="titulo"> Calculadora </h3>
+    <form action="#" id="calculadora" class="calculadora">
+        <br>
+        <label >Numero1: </label>
+        <input type="number" name="numero1" id="numero1" class="entrada"/>
+        <br>
+        <label >Numero2: </label>
+        <input type="number" name="numero2" id="numero2" class="entrada"/>
+        <br>
+        <br>
+        <select id="operacion">
+            <option value="+">Sumar</option>
+            <option value="-">Restar</option>
+            <option value="*">Multiplicar</option>
+            <option value="/">Dividir</option>
+            <option value="%">Modulo</option>
+        </select>
+        <br>
+        <br>
+        <span name="resultado" id="resultado" class="resultado">Resultado:</span>
+        <br>
+        <br>
+        <input type="submit" value="Calcular" onclick="calcular()">
+
+    </form>
+    
+</body>
+</html>

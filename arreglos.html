@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Document</title>
+</head>
+<body  onload="listarPersonas()">
+    <h1 id="titulo"> JAVASCRIPT</h1>
+    <script src="arreglos.js"></script>
+
+    <h3 id="titulo"> Arreglos </h3>
+    <h4 id="titulo"> Seleccione rut </h4>
+    <form class="seleccion">
+        <select name="optionlist" id="optionlist" onchange="getInfoPersona()">
+            <option selected="selected">Seleccione</option>
+        </select>
+    </form>
+    <div id="infoPersona" class="calculadora">
+        <ul id="info"></ul>
+    </div>
+
+</body>
+</html>
